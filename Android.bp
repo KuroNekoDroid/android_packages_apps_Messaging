@@ -92,9 +92,10 @@ android_app {
         "com.android.messaging.allowlist",
     ],
     optimize: {
-        obfuscate: true,
-        optimize: true,
         enabled: true,
+        optimize: true,
+        shrink: true,
+        obfuscate: true,
     },
 
     sdk_version: "current",
